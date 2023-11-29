@@ -30,7 +30,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: ydlhero/chatgpt-web-midjourney-proxy
+          images: tearsful/chatgpt-midjourney
           tags: |
             type=raw,value=latest
             type=ref,event=tag
